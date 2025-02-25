@@ -25,7 +25,7 @@ def main():
         guess = str(input("What colour am I thinking of? "))
         
         if x == guess:
-            print("You guessed {}. Congratulations you got it right!".format(guess))
+            print("You guessed {}. Congratulations you still got it right!".format(guess))
             break
         else:
             print("You guessed {}. Unfortunately you got the wrong answer. Please try again!".format(guess))
